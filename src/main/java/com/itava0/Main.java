@@ -11,7 +11,7 @@ public class Main {
         myFamily.add( new Person("Ian", "Auston", 16) );
         myFamily.add( new Person("Zephaniah", "Hughes", 9) );
         myFamily.add( new Person("Ezra", "Aiden", 17) );
-        Collections.sort(myFamily, Person::compareTo);
+        Collections.sort(myFamily);
         for(Person person: myFamily){
             System.out.println(person);
         }
